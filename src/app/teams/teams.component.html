@@ -1,0 +1,8 @@
+<div class="team-container" *ngFor="let list of product">
+    <div class="team-detail">
+        <img [src]='list.url'/>
+        <h2>{{list.name}}</h2>
+        <h2><a href="https://www.iplt20.com/teams">{{list.website}}</a></h2>
+        <h2>Contact: {{list.contact}}</h2>
+    </div>
+</div>

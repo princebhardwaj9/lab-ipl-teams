@@ -1,0 +1,18 @@
+.team-detail{
+    border: rgb(165, 165, 165) solid 2px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.team-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 33.33%;
+    height: 33.33%;
+    text-align: center;
+}
